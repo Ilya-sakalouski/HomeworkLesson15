@@ -31,6 +31,7 @@ public class Runner {
         Scanner scanner = new Scanner(System.in);
         MyClass myClass = new MyClass();
         myClass.answer(scanner.nextInt());
+        scanner.close();
     }
 }
 
